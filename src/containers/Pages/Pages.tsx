@@ -30,8 +30,6 @@ const Pages = () => {
     }
   }, [pageName]);
 
-  console.log(page);
-
   useEffect(() => {
     void fetchPage();
   }, [fetchPage]);
